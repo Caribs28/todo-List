@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0px;
+    border: 10px solid rgb(210, 209, 209);
+    border-width: 20px;
+    margin: 0px;
+    min-height: 100vh;
+}
+
+#header {
+    font-size: 30px;
+    background-color: orangered;
+    color: white;
+    padding: 20px;
+}
+
+.flex {
+    display: flex;
+}
+
+#main {
+    margin: auto;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.input {
+    display: inline;
+}
+
+.input-label {
+    display: block;
+    width: 400px;
+}
+
+#search {
+    border-radius: 5px;
+    border: 2px solid rgb(177, 170, 170);
+    width: 500px;
+    padding: 4px;
+}
+
+#adicionartarefa {
+    background-color: green;
+    color: white;
+    padding: 7px;
+    border: none;
+    margin-left: 15px;
+    cursor: pointer;
+}
+
+.filtrarconcluidas {
+    display: inline;
+    float: right;
+}
+#conteudo-principal {
+    text-align: center;
+    background-color: orangered;
+    color: white;
+    border: 1px solid gray;
+    margin: 0px;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+.tarefa {
+    border: 1px solid gray;
+    padding: 10px;
+}
+
+.deletar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 4px 30px;
+    float: right;
+    cursor: pointer;
+}
+
+.checkbox1 {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+    position: relative;
+    top: -1px;
+    cursor: pointer;
+}
